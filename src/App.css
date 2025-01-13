@@ -1,5 +1,79 @@
 header {
-  text-align: center;
-  margin: 20px;
+margin-top: 75px;
+height: 515px;
+color:aliceblue;
+position: relative;
+
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.nav-bar .title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  column-gap: 50px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.nav-item {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.main-container {
+  max-width: 1236px;
+  margin: 0 auto;
+}
+
+.header-welcome {
+  display: flex;
+  flex-direction: column;
+  min-width: 844px;
+  align-items: center;
+  position: absolute;
+  bottom:0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+
+}
+
+.header-welcome h1 {
+ font-family:Recursive;
+  font-size: 71px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 85.2px;
+  margin-bottom: 0;
+  color: #FF7575;
+}
+
+.header-welcome h2 {
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 43.5px;
+  margin-bottom: 0;
+ 
 }
